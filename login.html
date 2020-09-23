@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {font-family: Arial;}
+body{
+background:url(https://cdn.wallpapersafari.com/84/52/7BbTQc.jpg);
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: 35%;
+  padding: 10px 18px;
+  background-color:red;
+}
+
+.a{
+position:absolute;
+top: 15%;
+left:50%;
+transform: translate(-50%, -20%);
+}
+
+
+.container {
+  padding: 16px;
+}
+.container{
+position:absolute;
+top: 65%;
+left:55%;
+transform: translate(-50%, -20%);
+}
+.c{
+position:absolute;
+top: 30%;
+left:55%;
+transform: translate(-50%, -20%);
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+</style>
+</head>
+<body>
+<div class="a">
+<h2>Login Form</h2>
+</div>
+
+
+<form >
+  
+  <div class="c">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit"  onclick="function1()">Login</button>
+    <label>
+      <input type="checkbox"  name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:lightgrey">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+<script>
+function function1(){
+	alert("You are successfully logged in!");
+}</script>
+</body>
+</html>

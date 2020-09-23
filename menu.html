@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+button {
+  position: relative;
+  left:650px;
+top:3700px;
+  border: 3px solid;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.glow-on-hover {
+    width: 290px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: 'how it works';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+
+
+
+body
+{
+font-family:Romantic;
+color:black;
+background:url(https://pub-static.haozhaopian.net/static/web/site/features/menu/images/feature_menu606133d7dfd0ccf6f6c6f05be3abd4a7.png),url(https://i.pinimg.com/originals/c7/c2/93/c7c293b4019677632e8a5d47695eb941.jpg);
+background-size:cover;
+height: 10px;
+background-color:pink;
+background-repeat:no-repeat,repeat;
+background-position: 0px 0px;
+background-attachment:not-fixed;
+font-size:20px;
+color:black;
+}
+
+.image1{
+position:absolute;
+top: 165%;
+left:35%;
+transform: translate(-50%, -20%);
+}
+.image2{
+position:absolute;
+top: 230%;
+left:25%;
+transform: translate(-50%, -20%);
+}
+.image3{
+position:absolute;
+top: 280%;
+left:25%;
+transform: translate(-50%, -20%);
+}
+.image4{
+position:absolute;
+top: 220%;
+left:70%;
+transform: translate(-50%, -20%);
+}
+.image6{
+position:absolute;
+top: 325%;
+left:25%;
+transform: translate(-50%, -20%);
+}
+.image7{
+position:absolute;
+top: 315%;
+left:70%;
+transform: translate(-50%, -20%);
+}
+.image8{
+position:absolute;
+top: 354%;
+left:27%;
+transform: translate(-50%, -20%);
+}
+
+.image9{
+position:absolute;
+top: 360%;
+left:65%;
+transform: translate(-50%, -20%);
+}
+
+.image10{
+position:absolute;
+top: 395%;
+left:25%;
+transform: translate(-50%, -20%);
+}
+
+
+.image12{
+position:absolute;
+top: 420%;
+left:25%;
+transform: translate(-50%, -20%);
+}
+
+.image13{
+position:absolute;
+top: 395%;
+left:65%;
+transform: translate(-50%, -20%);
+}
+
+
+.image14{
+position:absolute;
+top: 450%;
+left:70%;
+transform: translate(-50%, -20%);
+}
+
+
+
+img {
+  border-radius: 100px;
+}
+
+
+
+
+
+
+p{
+font-size:170px;
+color:red;
+}
+p1{
+font-size:50px;
+color:purple;
+}
+p2{
+font-size:50px;
+color:purple;
+}
+p3{
+font-size:110px;
+color:red;
+}
+h1{
+font-size:110px;
+color:red;
+}
+p4{
+font-size:60px;
+color:purple;
+}
+p5{
+font-size:40px;
+color:purple;
+}
+p6{
+font-size:40px;
+color:purple;
+}
+p7{
+font-size:20px;
+color:red;
+}
+p8{
+font-size:40px;
+color:purple;
+}
+p10{
+font-size:20px;
+color:red;
+}
+p11{
+font-size:20px;
+color:black;
+}
+p12{
+font-size:40px;
+color:purple;
+}
+p13{
+font-size:20px;
+color:black;
+}
+p14{
+font-size:40px;
+color:purple;
+}
+p15{
+font-size:20px;
+color:black;
+}
+p16{
+font-size:40px;
+color:purple;
+}
+p17{
+font-size:40px;
+color:purple;
+}
+p18{
+font-size:40px;
+color:purple;
+}
+p19{
+font-size:40px;
+color:purple;
+}
+p20{
+font-size:40px;
+color:purple;
+}
+p21{
+font-size:40px;
+color:purple;
+}
+p22{
+font-size:40px;
+color:purple;
+}
+p23{
+font-size:40px;
+color:purple;
+}
+p24{
+font-size:40px;
+color:purple;
+}
+p25{
+font-size:40px;
+color:purple;
+}
+p26{
+font-size:20px;
+color:black;
+}
+p27{
+font-size:20px;
+color:black;
+}
+p28{
+font-size:20px;
+color:black;
+}
+p29{
+font-size:20px;
+color:black;
+}
+p30{
+font-size:20px;
+color:black;
+}
+p31{
+font-size:20px;
+color:black;
+}
+p32{
+font-size:20px;
+color:black;
+}
+p33{
+font-size:20px;
+color:black;
+}
+p34{
+font-size:20px;
+color:black;
+}
+p35{
+font-size:20px;
+color:black;
+}
+p36{
+font-size:20px;
+color:black;
+}
+p37{
+font-size:20px;
+color:black;
+}
+p38{
+font-size:20px;
+color:black;
+}
+
+
+
+
+.rate{
+position:absolute;
+top:200%;
+left:30%;
+transform:transform(-50%,-50%);
+}
+
+.rate1{
+position:absolute;
+top:260%;
+left:30%;
+transform:transform(-50%,-50%);
+}
+.rate1b{
+position:absolute;
+top:260%;
+left:35%;
+transform:transform(-50%,-50%);
+}
+.rate2{
+position:absolute;
+top:200%;
+left:75%;
+transform:transform(-50%,-50%);
+}
+.rate3{
+position:absolute;
+top:260%;
+left:75%;
+transform:transform(-50%,-50%);
+}
+.rate4{
+position:absolute;
+top:300%;
+left:30%;
+transform:transform(-50%,-50%);
+}
+
+.rate5{
+position:absolute;
+top:300%;
+left:75%;
+transform:transform(-50%,-50%);
+}
+.rate6{
+position:absolute;
+top:350%;
+left:31%;
+transform:transform(-50%,-50%);
+}
+.rate6b{
+position:absolute;
+top:350%;
+left:36%;
+transform:transform(-50%,-50%);
+}
+
+.rate7{
+position:absolute;
+top:350%;
+left:75%;
+transform:transform(-50%,-50%);
+}
+.rate8{
+position:absolute;
+top:395%;
+left:30%;
+transform:transform(-50%,-50%);
+}
+.rate9{
+position:absolute;
+top:395%;
+left:75%;
+transform:transform(-50%,-50%);
+}
+
+.rate10{
+position:absolute;
+top:420%;
+left:30%;
+transform:transform(-50%,-50%);
+}
+.rate10b{
+position:absolute;
+top:420%;
+left:35%;
+transform:transform(-50%,-50%);
+}
+
+.rate11{
+position:absolute;
+top:420%;
+left:75%;
+transform:transform(-50%,-50%);
+}
+.rate12{
+position:absolute;
+top:470%;
+left:30%;
+transform:transform(-50%,-50%);
+}
+.rate13{
+position:absolute;
+top:470%;
+left:75%;
+transform:transform(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cravings{
+position:absolute;
+top:100%;
+left:35%;
+transform:transform(-50%,-50%);
+}
+
+
+
+
+.a{
+position:absolute;
+top:-10%;
+left:45%;
+transform:transform(-50%,-50%);
+}
+.b{
+position:absolute;
+top:40%;
+left:39%;
+transform:transform(-50%,-50%);
+}
+.c{
+position:absolute;
+top:55%;
+left:29%;
+transform:transform(-50%,-50%);
+}
+.d{
+position:absolute;
+top:80%;
+left:45%;
+transform:transform(-50%,-50%);
+}
+.e{
+position:absolute;
+top:150%;
+left:45%;
+transform:transform(-50%,-50%);
+}
+.f{
+position:absolute;
+top:170%;
+left:48%;
+transform:transform(-50%,-50%);
+}
+.g{
+position:absolute;
+top:190%;
+left:5%;
+transform:transform(-50%,-50%);
+}
+.h{
+position:absolute;
+top:196.5%;
+left:8%;
+transform:transform(-50%,-50%);
+}
+.i{
+position:absolute;
+top:250%;
+left:5%;
+transform:transform(-50%,-50%);
+}
+.j{
+position:absolute;
+top:256.5%;
+left:8%;
+transform:transform(-50%,-50%);
+}
+.k{
+position:absolute;
+top:190%;
+left:50%;
+transform:transform(-50%,-50%);
+}
+.l{
+position:absolute;
+top:250%;
+left:50%;
+transform:transform(-50%,-50%);
+}
+.m{
+position:absolute;
+top:290%;
+left:5%;
+transform:transform(-50%,-50%);
+}
+.n{
+position:absolute;
+top:290%;
+left:50%;
+transform:transform(-50%,-50%);
+}
+.o{
+position:absolute;
+top:340%;
+left:5%;
+transform:transform(-50%,-50%);
+}
+.p{
+position:absolute;
+top:340%;
+left:50%;
+transform:transform(-50%,-50%);
+}
+.q{
+position:absolute;
+top:385%;
+left:5%;
+transform:transform(-50%,-50%);
+}
+.r{
+position:absolute;
+top:385%;
+left:50%;
+transform:transform(-50%,-50%);
+}
+.s{
+position:absolute;
+top:410%;
+left:5%;
+transform:transform(-50%,-50%);
+}
+.t{
+position:absolute;
+top:410%;
+left:50%;
+transform:transform(-50%,-50%);
+}
+.u{
+position:absolute;
+top:460%;
+left:50%;
+transform:transform(-50%,-50%);
+}
+.v{
+position:absolute;
+top:460%;
+left:5%;
+transform:transform(-50%,-50%);
+}
+.A{
+position:absolute;
+top:199%;
+left:5%;
+transform:transform(-50%,-50%);
+}
+.B{
+position:absolute;
+top:199%;
+left:45%;
+transform:transform(-50%,-50%);
+}
+.C{
+position:absolute;
+top:144%;
+left:-165%;
+transform:transform(-50%,-50%);
+}
+.D{
+position:absolute;
+top:144%;
+left:0%;
+transform:transform(-50%,-50%);
+}
+.E{
+position:absolute;
+top:235%;
+left:-165%;
+transform:transform(-50%,-50%);
+}
+.F{
+position:absolute;
+top:235%;
+left:0%;
+transform:transform(-50%,-50%);
+}
+.G{
+position:absolute;
+top:355%;
+left:-165%;
+transform:transform(-50%,-50%);
+}
+.H{
+position:absolute;
+top:355%;
+left:0%;
+transform:transform(-50%,-50%);
+}
+.I{
+position:absolute;
+top:460%;
+left:-165%;
+transform:transform(-50%,-50%);
+}
+.J{
+position:absolute;
+top:460%;
+left:0%;
+transform:transform(-50%,-50%);
+}
+.K{
+position:absolute;
+top:520%;
+left:-165%;
+transform:transform(-50%,-50%);
+}
+.L{
+position:absolute;
+top:520%;
+left:0%;
+transform:transform(-50%,-50%);
+}
+.M{
+position:absolute;
+top:640%;
+left:-165%;
+transform:transform(-50%,-50%);
+}
+.N{
+position:absolute;
+top:645%;
+left:0%;
+transform:transform(-50%,-50%);
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="a">
+<p style="font-family:Amazone BT"><b><marquee behavior="scroll" direction="up">Menu</marquee></b></p>
+</div>
+<div class="b">
+<p1><b>SPL. ARRANGEMENTS FOR:</b></p1></div>
+<div class="c">
+<p2><b>Kitty/Birthday Parties & Any Get Together</b></p2>
+</div>
+<div class="d">
+<p3 style="font-family:Agent Orange"><b><marquee behavior="scroll" direction="right">Food</marquee></b></p3>
+</div>
+<div class="cravings">
+<h1 style="font-family:Agent Orange"><b><marquee behavior="scroll" direction="left">Cravings</marquee></b></h1>
+</div>
+<div class="e">
+<p4>FREE HOME DELIVERY</p4>
+</div>
+<div class="f">
+<p5>MINIMUM ORDER OF RS. 399/-</p5>
+</div>
+<div class="g">
+<p6><b><marquee behavior="scroll" direction="right">Daawat-E-Bahaar</marquee></b></p6>
+</div>
+<div class="h">
+<p7>---VEGETARIAN---</p7>
+</div>
+<div class="j">
+<p10>---NON-VEGETARIAN---</p10>
+</div>
+<div class="i">
+<p8><b><marquee behavior="scroll" direction="right">Daawat-E-Bahaar</marquee></b></p8>
+</div>
+<div class="k">
+<p12><b><marquee>Breads</marquee></b></p12>
+</div>
+<div class="l">
+<p14><b><marquee>Salad / Raita</marquee></b></p14>
+</div>
+<div class="m">
+<p16><b><marquee behavior="scroll" direction="right">Chinese Veg.</marquee></b></p16>
+</div>
+<div class="n">
+<p17><b><marquee>Tandoori Snacks Veg.</marquee></b></p17>
+</div>
+<div class="o">
+<p18><b><marquee behavior="scroll" direction="right">Chinese Non-Veg.</marquee></b></p18>
+</div>
+<div class="p">
+<p19><b><marquee>Tandoori Snacks Non-Veg.</marquee></b></p19>
+</div>
+<div class="q">
+<p20><b><marquee behavior="scroll" direction="right">Rice & Biryani</marquee></b></p20>
+</div>
+<div class="r">
+<p21><b><marquee>Omelette</marquee></b></p21>
+</div>
+<div class="s">
+<p22><b><marquee behavior="scroll" direction="right">Soups</marquee></b></p22>
+</div>
+<div class="t">
+<p23><b><marquee>Thali</marquee></b></p23>
+</div>
+<div class="u">
+<p24><b><marquee>Beverages</marquee></b></p24>
+</div>
+<div class="v">
+<p25><b><marquee behavior="scroll" direction="right">Pasta</marquee></b></p25>
+</div>
+
+
+<div class="rate">
+<p9>230<br>230<br>230<br>230<br>230<br>230<br>230<br>230<br>220<br>200<br>200<br>200<br>230<br>230<br>180<br>180<br>170<br></p9>
+</div>
+
+<div class="rate1">
+<p11>280<br>280<br>280<br>280<br>280<br>280<br>280<br>240<br>280<br>280<br></p11>
+</div>
+<div class="rate1b">
+<p11>480<br>480<br>480<br>480<br>480<br>480<br>480<br>430<br>480<br>480<br></p11>
+</div>
+<div class="rate2">
+<p13>15<br>20<br>25<br>25<br>25<br>30<br>30<br>55<br>55<br>40<br>80<br>35<br>170<br>220<br></p13>
+</div>
+
+<div class="rate3">
+<p15>50<br>120<br>160<br>100<br>60<br>90<br>100<br>110<br></p15>
+</div>
+<div class="rate4">
+<p15>80<br>200<br>190<br>190<br>190<br>200<br>220<br>170<br>220<br>150<br>170<br>170<br>300<br></p15>
+</div>
+<div class="rate5">
+<p15>230<br>230<br>230<br>220<br>240<br>220<br>220<br>230<br>230<br>300<br></p15>
+</div>
+
+
+
+<div class="rate6">
+<p15>240<br>250<br>250<br>250<br>150<br></p15>
+</div>
+<div class="rate6b">
+<p15>400<br>425<br>425<br>425<br>250<br>240<br>260<br>260<br>250<br>500</p15>
+</div>
+<div class="rate7">
+<p15>300<br>320<br>320<br>230/380<br>230/380<br>320<br>380<br>360<br>280<br>280<br>530<br></p15>
+</div>
+<div class="rate8">
+<p15>100<br>130<br>299<br>399<br></p15>
+</div>
+<div class="rate9">
+<p15>60<br>70<br>90<br>70<br>60</p15>
+</div>
+<div class="rate10">
+<p15>100<br>100<br>100<br>100<br>100<br>-----<br></p15>
+</div>
+<div class="rate10b">
+<p15>-----<br>120<br>120<br>120<br>120<br>120<br></p15>
+</div>
+
+<div class="rate11">
+<p15>150<br><br>220<br><br><br>370<br></p15>
+</div>
+<div class="rate12">
+<p15>199<br><br>299<br></p15>
+</div>
+<div class="rate13">
+<p15>MRP<br>60<br>90<br></p15>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="image1">
+<img src="http://evolenti.com/wp-content/uploads/2015/10/free-home-delivery.png" width="200" height="200">
+</div>
+<div class="image2">
+<img src="https://healthynibblesandbits.com/wp-content/uploads/2019/07/Paneer-Tikka-Masala-2.jpg" width="100" height="100">
+</div>
+<div class="image3">
+<img src="https://i.ytimg.com/vi/C6M-YN6aL-0/maxresdefault.jpg" width="100" height="100">
+</div>
+<div class="image4">
+<img src="http://masalagrillla.com/v1/wp-content/uploads/2017/06/tanduri-roti.jpg" width="100" height="100">
+</div>
+
+
+
+<div class="image6">
+<img src="https://www.recipetineats.com/wp-content/uploads/2017/09/Spring-Rolls-4.jpg" width="100" height="100">
+</div>
+<div class="image7">
+<img src="https://www.cookforindia.com/wp-content/uploads/2016/08/Paneer-Tikka-_LR.jpg" width="100" height="100">
+</div>
+<div class="image8">
+<img src="http://i.ytimg.com/vi/oivVIFfT-io/hqdefault.jpg" width="100" height="100">
+</div>
+<div class="image9">
+<img src="https://i.ytimg.com/vi/i_kn--qAAjw/maxresdefault.jpg" width="100" height="100">
+</div>
+<div class="image10">
+<img src="https://www.boldsky.com/img/2013/05/16-jackfruit.jpg" width="100" height="100">
+</div>
+
+
+<div class="image12">
+<img src="http://www.thatwasvegan.com/wp-content/uploads/2012/05/thai-corn-soup1.jpg" width="100" height="100">
+</div>
+<div class="image13">
+<img src="http://ghk.h-cdn.co/assets/16/42/1600x800/landscape-1476812912-how-to-make-omelette.jpg" width="100" height="100">
+</div>
+<div class="image14">
+<img src="https://www.weddingbee.com/wp-content/uploads/2018/04/Fruit-Mocktails-357527.png" width="100" height="100">
+</div>
+
+
+
+
+
+<button class="glow-on-hover" onclick="window.location.href=' file:///C:/Users/DELL/OneDrive/Desktop/order%20now.html'">
+      <i><b>Place Order Now<b><i>
+
+</button>
+
+
+
+
+<div class="A">
+<p26>Paneer<br>
+ Paneer Lababdar/Paneer Makhani<br>
+ Paneer Bhurji<br>
+ Matar Paneer<br>
+ Shahi Paneer / Kadahi Paneer<br>
+ Kali Mirch Paneer<br>
+ Cream Paneer<br>
+ Paneer Do Pyaza<br>
+ Malai Kofta(White/Red)<br>
+ Pindi Chana<br>
+ Mix Veg<br>
+ Rajmah Rasleela<br>
+ Mushroom Do Pyaza<br>
+ Kali Mirch Mushroom<br>
+ Dal Makhani<br>
+ Dal Handi<br>
+ Yellow Dal Tadka<br>
+</p26>
+</div>
+
+<div class="B">
+<p27>
+Tandoori Roti<br>
+ Butter Roti<br>
+ Lachha Parantha<br>
+ Butter Naan<br>
+ Missi Roti<br>
+ Ajwain Pudina Parantha<br>
+ Mirchi Parantha<br>
+ Stuffed Kulcha<br>
+ Aloo Pyaz Parantha<br>
+ Garlic Naan<br>
+ Cheese Naan<br>
+ Rumali Roti<br>
+ Cheese Naan with Gravy<br>
+ Keema Naan With Gravy(Chicken / Mutton)<br>
+</p27
+</div>
+<div class="C">
+Kali Mirch Chicken<br>
+Cream Chicken<br>
+Butter Chicken<br>
+Kadahi Chicken<br>
+Chicken Tikka Butter Masala<br>
+Rara Chicken<br>
+Malai Chicken<br>
+Chicken Curry<br>
+Mutton Curry<br>
+Rara Mutton<br>
+</div>
+
+<div class="D">
+<p28>
+Green Salad<br>
+Kuchumbar Salad<br>
+Russian Salad/Cheese N Mac Salad<br>
+PeaNut Salad<br>
+Masala Papad(1 Pc.)<br>
+Boondi Raita<br>
+Mix Raita<br>
+Pineapple Raita<br>
+</p28>
+</div>
+<div class="E">
+<p29>
+French Fries<br>
+Chilly Paneer Dry/Gravy<br>
+Spring Roll<br>
+Honey Chilli Potato<br>
+Honey Chilli Cauliflower<br>
+Chilly Mushroom Dry/Gravy<br>
+Thai Rolls<br>
+Veg. Manchurian Dry /Gravy<br>
+Cheese Fingers<br>
+Veg. Noodles<br>
+Veg. Hakka Noodles<br>
+Chilli Garlic Noodles<br>
+Chinese Platter Veg.<br>
+</p29>
+</div>
+
+<div class="F">
+<p30>
+Panner Chatpata Tikka<br>
+Panner Malai Tikka/ Lahori Paneer Tikka<br>
+Makai Malai Seekah Kebab<br>
+Mushroom Tikka<br>
+Stuffed Mushroom Tikka<br>
+Malai Chaap/Masali Chaap<br>
+Haryali Chaap<br>
+Dahi Kebab<br>
+Beetroot Kebab<br>
+Tandoori Platter Veg.<br></p30>
+</div>
+
+<div class="G">
+<p31>
+Chilli Chicken Dry/ Gravy<br>
+Ginger Chicken Dry/ Gravy<br>
+Garlic Chicken Dry/ Gravy<br>
+Lemon Chicken Dry/ Gravy<br>
+Fried Chicken (4 Pcs./8 Pcs.)<br>
+Fish Fry(8 Pcs.)<br>
+Amritsari Fish(8 Pcs.) /Fish Fingers(8 Pcs.)<br>
+Fish & Chips<br>
+Chicken Noodles<br>
+Chinese Platter Non Veg.<br></p31>
+</div>
+
+<div class="H">
+<p32>
+Chakori Chicken Tikka <br>
+Chicken Malai Tikka<br>
+Surkh Lal Chicken Tikka<br>
+Tandoori Chicken<br>
+Afghani Chicken<br>
+Chicken Seekh Kebab<br>
+Do Rukha Seekh Kebab<br>
+Mutton Seekh Kebab<br>
+Fish Tikka Ajwaini(8 Pcs.)<br>
+Achari Fish Tikka(8 Pcs.)<br>
+Tandoori Platter Non-Veg.<br></p32>
+</div>
+
+<div class="I">
+<p33>
+Steamed Rice<br>
+Jeera Rice / Fried Rice<br>
+Chicken Biryani<br>
+Mutton Biryani<br></p33>
+</div>
+
+<div class="J">
+<p34>
+Plain Omelette<br>
+Vegetable Omelette<br>
+Cheese Omelette<br>
+Scrambled Eggs<br></p34>
+</div>
+
+<div class="K">
+<p35>
+Tomato Soup<br>
+Manchow Soup<br>
+Sweet Corn Soup<br>
+Hot N Sour Soup<br>
+Clear Soup<br>
+Tomato Egg Drop Soup<br></p35>
+</div>
+<div class="L">
+<p36>
+Executive Thali<br>
+(Dal + Vegetable + Rice + Salad+ 3 Roti)<br>
+Special Thali<br>
+(Dal + Vegetable + Shahi Paneer + Cheese Chilly + 1 Naan + 1 Parantha + Salad + Sweet Dish)<br>
+Non-Veg. Thali<br>
+(Dal+ Chicken Chilly Butter Chicken + Rice + Raita + 1 Naan + 1 Parantha + Salad)<br></p36>
+</div>
+
+<div class="M">
+<p37>
+Veg. Pasta<br>
+(In Red Sauce / White Sauce/Mix Sauce)<br>
+Chicken Pasta<br>
+(In Red Sauce/White Sauce / Mix Sauce)<br></p37>
+</div>
+
+<div class="N">
+<p38>
+Mineral Water /Soda/Cold Drink<br>
+Fresh Lime Soda<br>
+Virgin Mojito<br></p38>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
